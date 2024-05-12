@@ -21,6 +21,10 @@
 | 2023 | 22746     | 44293    | 2674    | 35545          | 20867     | 26830          | 152955|
 | 2024 | 25005     | 44432    | 2731    | 36042          | 22681     | 28134          | 159025|
 
+![Picture 1](Picture 1.png)
+
+
+
 
 ### Markdown Table for Cumulative Repositories by Year
 
