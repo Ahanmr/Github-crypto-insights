@@ -4,6 +4,8 @@
 - Collect data on the number of commits and repositories created for each crypto project.
 - Rank the projects based on these metrics and graph the evolution of this ranking over time.
 
+### Markdown Table for Cumulative Commits by Year
+
 | Year | Bittensor | Fetch.ai | Numerai | Ocean Protocol | Oraichain | SingularityNET | Total |
 |------|-----------|----------|---------|----------------|-----------|----------------|-------|
 | 2011 | -         | -        | 4       | -              | -         | -              | 4     |
@@ -19,6 +21,8 @@
 | 2023 | 22746     | 44293    | 2674    | 35545          | 20867     | 26830          | 152955|
 | 2024 | 25005     | 44432    | 2731    | 36042          | 22681     | 28134          | 159025|
 
+
+### Markdown Table for Cumulative Repositories by Year
 
 | Year | Bittensor | Fetch.ai | Numerai | Ocean Protocol | Oraichain | SingularityNET | Total |
 |------|-----------|----------|---------|----------------|-----------|----------------|-------|
