@@ -90,3 +90,15 @@ This contrasting behavior could be due to various factors, including market reac
 
 ### OCEAN Protocol
 
+
+## Rank repository by commits in each project
+
+| SingularityNET       | Commits | Oraichain      | Commits | Numerai          | Commits | OCEAN Protocol | Commits | Fetch.AI | Commits | Bittensor | Commits |
+|---------------------------------|---------|---------------------------|---------|-----------------------------|---------|----------------------------|---------|---------------------|---------|----------------------|---------|
+| snet-marketplace-service        | 5378    | owallet                   | 4796    | numerox                     | 904     | ocean.js                   | 1601    | agents-aea          | 6826    | polkadot-sdk         | 14774   |
+| snet-dapp                       | 3389    | oraiswap-frontend         | 3955    | docs                        | 447     | provider                   | 1568    | fetchd              | 3853    | bittensor            | 3853    |
+| snet-daemon                     | 1759    | oraiscan-frontend         | 2872    | example-scripts             | 297     | market                     | 1456    | docs                | 2391    | subtensor            | 1211    |
+| dev-portal                      | 1165    | keplr-extension-orai      | 1081    | submission-criteria         | 271     | aquarius                   | 1213    | cosmos-sdk          | 2168    | prompting            | 899     |
+| snet-cli                        | 1097    | oraidex-sdk               | 1077    | numerai-cli                 | 217     | contracts                  | 1144    | ledger              | 1457    | developer-docs       | 621     |
+
+
