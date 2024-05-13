@@ -47,6 +47,16 @@
 - Use statistical methods to determine the correlation between developer activity and project token price.
 - Analyze the correlation in different timeframes (short-term, medium-term, long-term) to understand if phases of high or low activity impact token price.
 
+| Project        | Correlation Coefficient | Analysis                                                                                     |
+|----------------|-------------------------|----------------------------------------------------------------------------------------------|
+| Bittensor      | 0.81                    | Strong positive correlation, indicating higher developer activity generally leads to higher token prices. |
+| Ocean Protocol | 0.26                    | Weak positive correlation, suggesting some level of association between developer activity and token prices. |
+| SingularityNET | 0.40                    | Moderate positive correlation, developer activity somewhat influences token prices.         |
+| Fetch.ai       | 0.38                    | Moderate positive correlation, similar to SingularityNET in developer influence on token prices. |
+| Numerai        | 0.26                    | Weak positive correlation, minimal but noticeable effect of developer activity on token prices. |
+| Oraichain      | -0.49                   | Moderate negative correlation, increased developer activity might lead to lower token prices, suggesting potential overvaluation concerns during high activity phases. |
+
+
 ### Bittensor
 The data for Bittensor consists of:
 * GitHub Stats: Tracks cumulative commits over time. It appears that the "Cumulative Repos" column may contain missing values.
