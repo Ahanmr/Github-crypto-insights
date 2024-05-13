@@ -43,3 +43,40 @@
 
 ![Picture 1](./Picture%202.png)
 
+## Correlations
+- Use statistical methods to determine the correlation between developer activity and project token price.
+- Analyze the correlation in different timeframes (short-term, medium-term, long-term) to understand if phases of high or low activity impact token price.
+
+### Bittensor
+The data for Bittensor consists of:
+* GitHub Stats: Tracks cumulative commits over time. It appears that the "Cumulative Repos" column may contain missing values.
+* Token Price: Includes open, high, low, close, adjusted close prices, and volume for each day.
+
+The merged dataset for Bittensor includes both the cumulative commits and token prices (open, high, low, close, adjusted close, volume). However, there's a noticeable issue with the token price data on March 5, 2023, where the price significantly diverges from subsequent days. This could be a data error or anomaly. It appears that there is a very low close price (0.126083) on March 5, 2023, which is significantly different from the other prices that start from around 34 and go up to several hundred. This anomalous value may skew our correlation analysis if left unaddressed.
+
+1. Address any data errors or inconsistencies, particularly in the token price.
+2.Calculate the correlation between the cumulative commits and the token prices (specifically, the daily closing price as a general representative of the token's value).
+3. Explore the correlation in different timeframes (short-term, medium-term, long-term).
+
+The Pearson correlation coefficient between cumulative commits and the closing price of the token for Bittensor is approximately 0.81. This indicates a strong positive correlation, suggesting that as developer activity (measured by cumulative commits) increases, the token price tends to increase as well.
+
+Next, we can analyze the correlation in different timeframes:
+
+1. Short-term: Last 1 month
+2. Medium-term: Last 3 months
+3. Long-term: Entire dataset timeframe
+
+Here are the correlation coefficients between cumulative commits and closing token price across different timeframes for Bittensor:
+
+1. Short-term (Last 1 month): −0.86
+2. Medium-term (Last 3 months): −0.68
+3. Long-term: 0.81
+
+These results suggest:
+1. In the long-term, there is a strong positive correlation, indicating that higher developer activity is generally associated with higher token prices over extended periods.
+2. In contrast, in the short-term and medium-term, there is a strong negative correlation, which suggests that recent increases in developer activity might coincide with decreases in token price or vice versa.
+
+This contrasting behavior could be due to various factors, including market reactions to immediate news or developments, which might not reflect the underlying value driven by cumulative development activity. Other external factors could also be influencing these prices in the shorter frames.
+
+### OCEAN Protocol
+
